@@ -1,0 +1,100 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Poppins';
+
+    padding: 0;
+    margin: 0 auto;
+
+    width: 100%;
+}
+
+/* primer renglón */
+
+nav{
+    display: block;
+
+}
+
+nav .back {
+    float: left;
+    margin: 5%
+}
+
+nav h1{
+    float: left;
+}
+
+/* segundo renglón */
+
+header{
+    display: block;
+    margin: 0 5% 0 5%;
+    font-size: 0.7em;
+   
+    color: gray;
+}
+
+.hotel{
+    float: left;
+    width: 50%;
+}
+
+.time{
+    float: left;
+}
+
+.time, .hotel{
+    padding-left: 5%
+}
+
+.info{
+    font-size: 1.3em;
+    color: black;
+
+}
+
+/* el resto */
+
+
+
+main{
+    overflow: hidden;
+    clear: both;            
+    height: 90vh;
+    
+}
+
+#mapa{
+    
+    margin: 5%;
+    border-radius: 10px;
+    border: 5px white;
+    padding-inline: 1%;
+    width: 488px;
+    height: 300px;
+
+}
+
+ul{
+    margin: 5%;
+    padding-left: 10%;
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px white;
+    border: 5px groove white;
+}
+
+li{
+    border-radius: 12px;
+    border: 1px solid greenyellow;
+}
+li h4{
+    line-height: 1%;
+}
+
+
+.status{
+    font-size: 0.7em;
+    color: darkorange;
+}
+ 
